@@ -1,0 +1,38 @@
+{
+    "architectures": {
+        "x86_64": {
+            "abis": [
+                "windows"
+            ],
+            "formats": [
+                "html",
+                "json"
+            ]
+        },
+        "x86": {
+            "abis": [
+                "cdecl",
+                "stdcall"
+            ],
+            "formats": [
+                "html",
+                "json"
+            ]
+        },
+        "arm64": {
+            "abis": [
+                "aapcs"
+            ],
+            "formats": [
+                "html",
+                "json"
+            ]
+        }
+    },
+    "defaults": {
+        "arch": "x86_64",
+        "abi": "windows",
+        "format": "json",
+        "window": 15
+    }
+}
